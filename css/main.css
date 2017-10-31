@@ -1,0 +1,290 @@
+*{
+	margin: 0;
+}
+
+body{
+	font-family: Lato;
+	background-color: #3099ff;
+}
+
+header{
+	background-color: #FFFFFF;
+	color: 000000;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+.headerbutton li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.headerbutton button{ /*.dropbtn - Da estilo a los botones del header*/
+	background-color: transparent;
+	display: inline-block;
+	float: left;
+	padding: 7px 12px;
+	border-left: 2px solid #3099ff;
+	border-right: 2px solid #3099ff;
+	border-bottom: none;
+	border-top: none;
+	cursor: pointer;
+}
+
+.headerbutton button:hover{
+	background-color: #3099ff;
+	transition-duration: .5s;
+}
+
+.headerbutton a{
+	text-decoration: none;
+	color: #000000;
+	text-align: center;
+	font-size: 16px;
+}
+
+.menudrop{ /*.dropdown*/
+	position: relative;
+	display: inline-block;
+}
+
+.menudrop-cont{/*dropdown-content*/
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 105px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-bottom: 1px solid black;
+}
+
+.menudrop-cont a{
+	color: black;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	border-top: 1px solid black;
+	border-left: 2px solid #3099ff;
+	border-right: 2px solid #3099ff;
+	text-decoration: none;
+	display: block;
+	transition-duration: 1s;
+}
+
+.menudrop-cont a:hover{/*Cambia el color del botón del menú interno al pasar el mouse*/
+	background-color: #3099ff;
+	transition-duration: 1s;
+}
+
+.menudrop:hover .menudrop-cont{/*Despliega el menú*/
+	display: block;
+	transition-duration: 1s;
+}
+
+.campologin{
+	border: 1px solid #808080;
+	border-radius: 3px;
+	width: 250px;
+	height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 16px;
+}
+
+.loginbutton{
+	border: 2px solid #585858;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 25px;
+	width: 60px;
+}
+
+.loginbutton:hover{
+	background-color: #3099ff;
+	transition-duration: 1s;
+}
+
+.campor{
+	display: block;
+	border: 1px solid #585858;
+	border-radius: 5px;
+	height: 25px;
+	background-color: rgba(0,0,0,0.1);
+	font-size: 16px;
+	font-style: italic;
+	margin: 2px 0px 8px 0px;
+}
+
+.inputr{
+	display: inline-block;
+	border: 2px solid #585858;
+	height: 28px;
+	width: 60px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.inputr:hover{
+	background-color: #3099ff;
+	transition-duration: 1s;
+}
+
+.seccioncarrito{
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nombre-art{
+	padding-bottom: 10px;
+	display: block;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	color: black;
+}
+
+.imagen-art{
+	border: 1px solid black;
+	width: 150px;
+	height: 50px;
+	margin-top: 15px;
+}
+
+.precio{
+	padding-top: 15px;
+	float: right;
+	margin: auto;
+	font-style: italic;
+	font-weight: bold;
+	color: #1bc64c;
+}
+
+.divisor{
+	border-bottom: 1px solid #c6c6c6;
+	padding-bottom: 15px;
+}
+
+.comprabutton{
+	height: 35px;
+	width: 130px;
+	border: 2px solid #585858;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.comprabutton:hover{
+	opacity: .75;
+	background-color: #3099ff;
+	transition-duration: 1s;
+}
+
+.comprabutton a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.banner img{
+	width: 1000px;
+}
+
+.banner{ 
+	transition-duration: 2s;
+}
+
+.banner:hover{
+	opacity: .75;
+	transition-duration: 2s;
+}
+
+.seccionindex{
+	float: left;
+	width: 176px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 14px;
+	text-align: center;
+}
+
+.seccionindex img{
+	width: 180px;
+	height: 120px;
+	transition-duration: 1s;
+}
+
+.seccionindex img:hover{
+	opacity: .5;
+	transition-duration: 1s;
+}
+
+.nombrecat a{
+	font-weight: bold;
+	font-size: 18px;
+	color: #2882d6;
+	text-decoration: none;
+}
+
+.nombrecat:hover{
+	text-decoration: underline;
+}
+
+.descripcioncat{
+	text-align: center;
+	height: 160px;
+}
+
+.descripcion{
+	font-style: italic;	
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.indexbutton{
+	border: 2px solid #585858;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 35px;
+	width: 150px;
+	display: inline-block;
+}
+
+.indexbutton a{
+	text-decoration: none;
+	color: black;
+}
+
+.indexbutton:hover{
+	background-color: #3099ff;
+	transition-duration: 1s;
+}
+
+.artimg{
+	width: 170px;
+	height: 120px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition-duration: 1s;
+}
+
+.artimg:hover{
+	opacity: .5;
+	transition-duration: 1s;	
+}
+
+.tituloart{
+	width: 170px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+.tituloart a{
+	text-decoration: none;
+	color: #FF1D00;
+}
+
+.tituloart a:hover{
+	text-decoration: underline;
+}

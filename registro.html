@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>¡Regístrate!</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+
+		<div style="width: 1000px; margin: auto;">
+			<a href="index.html"><img src="images/logofinal.png" style="width: 210px; height: 60px"></a>
+			<nav style="float: right; padding-top: 15px">
+				<ul class="headerbutton">
+					<li><button><a href="index.html">Inicio</a></button></li>
+					<div class="menudrop">
+						<li><button><a href="#">Categorías</a></button></li>
+							<div class="menudrop-cont">
+								<a href="art1.html">CPU>></a>
+								<a href="art2.html">GPU>></a>
+								<a href="art3.html">Motherboard>></a>
+								<a href="art4.html">RAM>></a>
+								<a href="art5.html">Gabinetes>></a>
+							</div>
+					</div>
+					<li><button><a href="contacto.html">Contacto</a></button></li>
+
+					<div class="menudrop">
+						<li><button><a href="#">Tú</a></button></li>	
+						<div class="menudrop-cont">
+							<a href="login.html">Iniciar sesión</a>
+							<a href="registro.html">Registrarse</a>
+						</div>
+					</div>		
+					<li><button><a href="carrito.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button></li>
+				</ul>	
+			</nav>
+		</div>
+	</header>
+
+	<section style="margin: auto; width: 1000px; background-color: rgba(255,255,255,0.97);">
+		<form action="" style="padding-left: 100px; padding-top: 20px; padding-right: 100px">
+			<div>Registro</div>
+			<div style="border-top: 1px solid #585858; padding-top: 15px;">
+				<label for="nombre">Nombre:</label>
+				<input type="text" name="nombre" class="campor" placeholder="Nombre">
+			</div>
+			<div>
+				<label for="apellidop">Apellido Paterno:</label>
+				<input type="text" name="apellidop" class="campor" placeholder="Apellido Paterno">	
+			</div>
+			<div>
+				<label for="apellidom">Apellido Materno:</label>
+				<input type="text" name="apellidom" class="campor" placeholder="Apellido Materno">
+			</div>
+			<div>
+				<label for="gender" style="display: block;">Sexo:</label>
+				<input type="radio" name="gender" value="Masculino">Masculino
+				<input type="radio" name="gender" value="Femenino">Femenino
+			</div>
+			<div style="padding-top: 10px">
+				<label for="dia">Fecha de nacimiento:</label>
+				<input type="date" name="dia" class="campor">
+			</div>
+			<div>
+				<label for="email">Correo electrónico:</label>
+				<input type="email" name="email" class="campor" placeholder="ejemplo@mail.com">
+			</div>
+			<div>
+				<label for="password">Contraseña:</label>
+				<input type="password" name="password" class="campor">
+			</div>
+			<div>
+				<label for="password">Repetir Contraseña:</label>
+				<input type="password" name="password" class="campor">
+			</div>
+			<input type="submit" name="submit" class="inputr">
+			<div style="border-top: 1px solid #585858; margin-top: 25px; padding-bottom: 56px"></div>
+		</form>
+	</section>
+
+	</body>
+</html>
